@@ -1,0 +1,27 @@
+
+$cor-fundo: #EFEEF3;
+$cor-texto: #000000;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color:$cor-fundo;
+    display:flex;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+    nav{
+        width:90vw;
+        height: 8vh;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        li{
+            list-style:none;
+        }
+
+    }
+}

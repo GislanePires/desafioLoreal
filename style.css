@@ -1,1 +1,23 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #EFEEF3;
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  align-items: center;
+}
+header nav {
+  width: 90vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
